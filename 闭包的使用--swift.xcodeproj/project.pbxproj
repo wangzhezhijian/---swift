@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		601526741E2DAC2600419311 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601526731E2DAC2600419311 /* AppDelegate.swift */; };
+		601526761E2DAC2600419311 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601526751E2DAC2600419311 /* ViewController.swift */; };
+		601526791E2DAC2600419311 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 601526771E2DAC2600419311 /* Main.storyboard */; };
+		6015267B1E2DAC2600419311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6015267A1E2DAC2600419311 /* Assets.xcassets */; };
+		6015267E1E2DAC2600419311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6015267C1E2DAC2600419311 /* LaunchScreen.storyboard */; };
+		601526891E2DAC2600419311 /* _______swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601526881E2DAC2600419311 /* _______swiftTests.swift */; };
+		601526941E2DAC2600419311 /* _______swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601526931E2DAC2600419311 /* _______swiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		601526851E2DAC2600419311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 601526681E2DAC2600419311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6015266F1E2DAC2600419311;
+			remoteInfo = "闭包的使用--swift";
+		};
+		601526901E2DAC2600419311 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 601526681E2DAC2600419311 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6015266F1E2DAC2600419311;
+			remoteInfo = "闭包的使用--swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		601526701E2DAC2600419311 /* 闭包的使用--swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "闭包的使用--swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		601526731E2DAC2600419311 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		601526751E2DAC2600419311 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		601526781E2DAC2600419311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6015267A1E2DAC2600419311 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6015267D1E2DAC2600419311 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6015267F1E2DAC2600419311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		601526841E2DAC2600419311 /* 闭包的使用--swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "闭包的使用--swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		601526881E2DAC2600419311 /* _______swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______swiftTests.swift"; sourceTree = "<group>"; };
+		6015268A1E2DAC2600419311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6015268F1E2DAC2600419311 /* 闭包的使用--swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "闭包的使用--swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		601526931E2DAC2600419311 /* _______swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______swiftUITests.swift"; sourceTree = "<group>"; };
+		601526951E2DAC2600419311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6015266D1E2DAC2600419311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601526811E2DAC2600419311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6015268C1E2DAC2600419311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		601526671E2DAC2600419311 = {
+			isa = PBXGroup;
+			children = (
+				601526721E2DAC2600419311 /* 闭包的使用--swift */,
+				601526871E2DAC2600419311 /* 闭包的使用--swiftTests */,
+				601526921E2DAC2600419311 /* 闭包的使用--swiftUITests */,
+				601526711E2DAC2600419311 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		601526711E2DAC2600419311 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				601526701E2DAC2600419311 /* 闭包的使用--swift.app */,
+				601526841E2DAC2600419311 /* 闭包的使用--swiftTests.xctest */,
+				6015268F1E2DAC2600419311 /* 闭包的使用--swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		601526721E2DAC2600419311 /* 闭包的使用--swift */ = {
+			isa = PBXGroup;
+			children = (
+				601526731E2DAC2600419311 /* AppDelegate.swift */,
+				601526751E2DAC2600419311 /* ViewController.swift */,
+				601526771E2DAC2600419311 /* Main.storyboard */,
+				6015267A1E2DAC2600419311 /* Assets.xcassets */,
+				6015267C1E2DAC2600419311 /* LaunchScreen.storyboard */,
+				6015267F1E2DAC2600419311 /* Info.plist */,
+			);
+			path = "闭包的使用--swift";
+			sourceTree = "<group>";
+		};
+		601526871E2DAC2600419311 /* 闭包的使用--swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				601526881E2DAC2600419311 /* _______swiftTests.swift */,
+				6015268A1E2DAC2600419311 /* Info.plist */,
+			);
+			path = "闭包的使用--swiftTests";
+			sourceTree = "<group>";
+		};
+		601526921E2DAC2600419311 /* 闭包的使用--swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				601526931E2DAC2600419311 /* _______swiftUITests.swift */,
+				601526951E2DAC2600419311 /* Info.plist */,
+			);
+			path = "闭包的使用--swiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6015266F1E2DAC2600419311 /* 闭包的使用--swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 601526981E2DAC2600419311 /* Build configuration list for PBXNativeTarget "闭包的使用--swift" */;
+			buildPhases = (
+				6015266C1E2DAC2600419311 /* Sources */,
+				6015266D1E2DAC2600419311 /* Frameworks */,
+				6015266E1E2DAC2600419311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "闭包的使用--swift";
+			productName = "闭包的使用--swift";
+			productReference = 601526701E2DAC2600419311 /* 闭包的使用--swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		601526831E2DAC2600419311 /* 闭包的使用--swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6015269B1E2DAC2600419311 /* Build configuration list for PBXNativeTarget "闭包的使用--swiftTests" */;
+			buildPhases = (
+				601526801E2DAC2600419311 /* Sources */,
+				601526811E2DAC2600419311 /* Frameworks */,
+				601526821E2DAC2600419311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				601526861E2DAC2600419311 /* PBXTargetDependency */,
+			);
+			name = "闭包的使用--swiftTests";
+			productName = "闭包的使用--swiftTests";
+			productReference = 601526841E2DAC2600419311 /* 闭包的使用--swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6015268E1E2DAC2600419311 /* 闭包的使用--swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6015269E1E2DAC2600419311 /* Build configuration list for PBXNativeTarget "闭包的使用--swiftUITests" */;
+			buildPhases = (
+				6015268B1E2DAC2600419311 /* Sources */,
+				6015268C1E2DAC2600419311 /* Frameworks */,
+				6015268D1E2DAC2600419311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				601526911E2DAC2600419311 /* PBXTargetDependency */,
+			);
+			name = "闭包的使用--swiftUITests";
+			productName = "闭包的使用--swiftUITests";
+			productReference = 6015268F1E2DAC2600419311 /* 闭包的使用--swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		601526681E2DAC2600419311 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AISION;
+				TargetAttributes = {
+					6015266F1E2DAC2600419311 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					601526831E2DAC2600419311 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6015266F1E2DAC2600419311;
+					};
+					6015268E1E2DAC2600419311 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6015266F1E2DAC2600419311;
+					};
+				};
+			};
+			buildConfigurationList = 6015266B1E2DAC2600419311 /* Build configuration list for PBXProject "闭包的使用--swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 601526671E2DAC2600419311;
+			productRefGroup = 601526711E2DAC2600419311 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6015266F1E2DAC2600419311 /* 闭包的使用--swift */,
+				601526831E2DAC2600419311 /* 闭包的使用--swiftTests */,
+				6015268E1E2DAC2600419311 /* 闭包的使用--swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6015266E1E2DAC2600419311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6015267E1E2DAC2600419311 /* LaunchScreen.storyboard in Resources */,
+				6015267B1E2DAC2600419311 /* Assets.xcassets in Resources */,
+				601526791E2DAC2600419311 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601526821E2DAC2600419311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6015268D1E2DAC2600419311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6015266C1E2DAC2600419311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601526761E2DAC2600419311 /* ViewController.swift in Sources */,
+				601526741E2DAC2600419311 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		601526801E2DAC2600419311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601526891E2DAC2600419311 /* _______swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6015268B1E2DAC2600419311 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				601526941E2DAC2600419311 /* _______swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		601526861E2DAC2600419311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6015266F1E2DAC2600419311 /* 闭包的使用--swift */;
+			targetProxy = 601526851E2DAC2600419311 /* PBXContainerItemProxy */;
+		};
+		601526911E2DAC2600419311 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6015266F1E2DAC2600419311 /* 闭包的使用--swift */;
+			targetProxy = 601526901E2DAC2600419311 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		601526771E2DAC2600419311 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				601526781E2DAC2600419311 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6015267C1E2DAC2600419311 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6015267D1E2DAC2600419311 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		601526961E2DAC2600419311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		601526971E2DAC2600419311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		601526991E2DAC2600419311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "闭包的使用--swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaokai.wang.-------swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6015269A1E2DAC2600419311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "闭包的使用--swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaokai.wang.-------swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6015269C1E2DAC2600419311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "闭包的使用--swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaokai.wang.-------swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/闭包的使用--swift.app/闭包的使用--swift";
+			};
+			name = Debug;
+		};
+		6015269D1E2DAC2600419311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "闭包的使用--swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaokai.wang.-------swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/闭包的使用--swift.app/闭包的使用--swift";
+			};
+			name = Release;
+		};
+		6015269F1E2DAC2600419311 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "闭包的使用--swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaokai.wang.-------swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "闭包的使用--swift";
+			};
+			name = Debug;
+		};
+		601526A01E2DAC2600419311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "闭包的使用--swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "xiaokai.wang.-------swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "闭包的使用--swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6015266B1E2DAC2600419311 /* Build configuration list for PBXProject "闭包的使用--swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601526961E2DAC2600419311 /* Debug */,
+				601526971E2DAC2600419311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		601526981E2DAC2600419311 /* Build configuration list for PBXNativeTarget "闭包的使用--swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601526991E2DAC2600419311 /* Debug */,
+				6015269A1E2DAC2600419311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6015269B1E2DAC2600419311 /* Build configuration list for PBXNativeTarget "闭包的使用--swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6015269C1E2DAC2600419311 /* Debug */,
+				6015269D1E2DAC2600419311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6015269E1E2DAC2600419311 /* Build configuration list for PBXNativeTarget "闭包的使用--swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6015269F1E2DAC2600419311 /* Debug */,
+				601526A01E2DAC2600419311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 601526681E2DAC2600419311 /* Project object */;
+}
