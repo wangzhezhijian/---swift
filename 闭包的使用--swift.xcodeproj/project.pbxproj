@@ -14,6 +14,7 @@
 		6015267E1E2DAC2600419311 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6015267C1E2DAC2600419311 /* LaunchScreen.storyboard */; };
 		601526891E2DAC2600419311 /* _______swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601526881E2DAC2600419311 /* _______swiftTests.swift */; };
 		601526941E2DAC2600419311 /* _______swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601526931E2DAC2600419311 /* _______swiftUITests.swift */; };
+		60DE327F1E2F5BF900185152 /* HttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DE327E1E2F5BF900185152 /* HttpTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6015268F1E2DAC2600419311 /* 闭包的使用--swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "闭包的使用--swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		601526931E2DAC2600419311 /* _______swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______swiftUITests.swift"; sourceTree = "<group>"; };
 		601526951E2DAC2600419311 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DE327E1E2F5BF900185152 /* HttpTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				601526731E2DAC2600419311 /* AppDelegate.swift */,
 				601526751E2DAC2600419311 /* ViewController.swift */,
+				60DE327E1E2F5BF900185152 /* HttpTool.swift */,
 				601526771E2DAC2600419311 /* Main.storyboard */,
 				6015267A1E2DAC2600419311 /* Assets.xcassets */,
 				6015267C1E2DAC2600419311 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DE327F1E2F5BF900185152 /* HttpTool.swift in Sources */,
 				601526761E2DAC2600419311 /* ViewController.swift in Sources */,
 				601526741E2DAC2600419311 /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +509,7 @@
 				6015269A1E2DAC2600419311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6015269B1E2DAC2600419311 /* Build configuration list for PBXNativeTarget "闭包的使用--swiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				6015269D1E2DAC2600419311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6015269E1E2DAC2600419311 /* Build configuration list for PBXNativeTarget "闭包的使用--swiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				601526A01E2DAC2600419311 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
